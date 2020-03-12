@@ -1,0 +1,15 @@
+So, before I get to coding, setting up directories, or installing dependencies, it's worth spending a good amount of time establishing the purpose of this web application and the project. 
+
+Defining the project in a cohesive way is important, and I feel it should reflect the framework that it will be built upon (being Flask). Unlike Django, Flask is very scaleable and can effectively reflect the actual scale of our project. However, we lose alot of the higher level structural assists that Django provides. 
+I feel that Flask is ideal for projects that have a "elegance through simplicity" aspect. The goal here is to declare our requirements and ideas behind our application from Hello World, and not have to adjust them as we scale, but simply scale them and extend them as our project grows.
+
+Enough theory.
+
+[Mission Statement]
+This web app will be socially driven and observe conventions commonly found in popular microblogging services, but rather than a popularity or exposure motivation, it's intent is to provide the modern day developer or creator with a sort of "briefcase" (if your briefcase could also function like Tumblr.) While there will be features similar to the Twitter Feed mechanic, most of our applications models and views will be self driven. 
+
+So for example, I login to my user or admin account and am greeted with a dashboard reminiscent of GitHub. Rather than repositories filled with source code, I will have various "thought repositories" if you will. These can be projects, similar to Git repos, galleries of your artistic creation, microblogs, campaigns, or specialized forums. 
+
+This is your hive and these are it's combs. (I'll think of a better name later.)
+
+They can be built or tore down easily, they can be visible to all and shared with the world or they can exclusively accessible to only your or a select few. Everyone will have 2 or 3 base nodes that are default. 1 of them will be a generic Tumblr like microblog, and will be (for the most part) publicly visible by other users. Another will be your Vault, which is a personalized content journal only visible to the user. 
